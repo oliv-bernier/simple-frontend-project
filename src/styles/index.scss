@@ -1,0 +1,80 @@
+@import url('./reset.scss');
+
+// Write here all your styles in Sass language or plain CSS!
+
+body {
+  background-color: #17004F;
+  color: #FFCB23;
+}
+
+#app {
+  @media screen and (min-width: 320px) {
+    margin: 2rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 2rem 10rem;
+  }
+}
+
+.purpose {
+  font-size: 1.3rem;
+  font-weight: normal;
+  
+  &-vite {
+    display: inline-block;
+
+    &:hover {
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+  }
+}
+
+.project__title {
+  font-family: 'Shizuru', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: normal;
+
+  @media screen and (min-width: 320px) {
+    font-size: 3rem;
+    margin: 2rem 0 5rem 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 4rem;
+    margin: 5rem 0 5rem 0;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 960px) {
+    font-size: 5rem;
+    margin: 10rem 0 5rem 0;
+  }
+}
+
+.vite__logo {
+  width: 50px;
+
+  @media screen and (min-width: 320px) {
+    width: 70px;
+    margin: 2rem 0 0 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 100px;
+    margin: 0 4rem;
+  }
+
+  @media screen and (min-width: 960px) {
+    width: 150px;
+  }
+}
+
+.git:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
