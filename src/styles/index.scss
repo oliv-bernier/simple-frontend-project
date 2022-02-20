@@ -3,8 +3,8 @@
 // Write here all your styles in Sass language or plain CSS!
 
 body {
-  background-color: #17004F;
-  color: #FFCB23;
+  background-color: #17004f;
+  color: #ffcb23;
 }
 
 #app {
@@ -20,7 +20,7 @@ body {
 .purpose {
   font-size: 1.3rem;
   font-weight: normal;
-  
+
   &-vite {
     display: inline-block;
 
@@ -49,7 +49,7 @@ body {
     flex-direction: row;
     align-items: center;
   }
-  
+
   @media screen and (min-width: 960px) {
     font-size: 5rem;
     margin: 10rem 0 5rem 0;
