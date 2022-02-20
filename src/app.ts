@@ -1,5 +1,7 @@
 // Write here all your code in TypeScript or JavaScript but still benefit from TypeScript's IntelliSense!
 
+import viteJsLogo from '../assets/vitejs.svg'
+
 const app = {
   rootElement: document.querySelector<HTMLDivElement>('#app'),
   init: function () {
@@ -16,7 +18,7 @@ const app = {
     const img: HTMLImageElement = document.createElement('img')
 
     img.classList.add('vite__logo')
-    img.src = '../assets/vitejs.svg'
+    img.src = viteJsLogo
 
     img.setAttribute('alt', 'Vite JS logo')
 
