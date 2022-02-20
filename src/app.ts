@@ -16,10 +16,8 @@ const app = {
     title.textContent = 'Simple Frontend Project'
 
     const img: HTMLImageElement = document.createElement('img')
-
     img.classList.add('vite__logo')
     img.src = viteJsLogo
-
     img.setAttribute('alt', 'Vite JS logo')
 
     title.appendChild(img)
